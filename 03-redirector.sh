@@ -2,9 +2,9 @@
 echo "Hello" 1>/tmp/output.txt
 echo "Hello" >/tmp/output1.txt
 
-## 2> : Redirect stderr to a file (overwrite)
-#ls /nonexistent 2>/tmp/error.txt
-#
+# 2> : Redirect stderr to a file (overwrite)
+ls /nonexistent 2>/tmp/error.txt
+
 ## &> : Redirect both stdout and stderr to a file (overwrite)
 #ls /nonexistent &>/tmp/both.txt
 #
