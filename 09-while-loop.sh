@@ -9,7 +9,7 @@ done
 
 nc -w 2 -z localhost 3000
 while [ $? -ne 0 ]; do
-  sleep 10
+  sleep 2
   echo Trying again after 30 seconds...
   nc -w 2 -z localhost 3000
 done
