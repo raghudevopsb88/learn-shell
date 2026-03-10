@@ -16,3 +16,4 @@ done
 
 
 
+echo Service on 3000 is started successfully..
